@@ -3,8 +3,9 @@
     "description": "Keeping it simple, stupid",
     "type": "project",
     "require": {
-        "leocavalcante/siler": "^0.0.1",
-        "twig/twig": "^1.28"
+        "leocavalcante/siler": "^0.1.0",
+        "twig/twig": "^1.28",
+        "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.6"
