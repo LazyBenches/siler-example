@@ -1,9 +1,7 @@
 <?php
 
-use App\Service\Calc;
 
-$calc = new Calc();
-$result = $calc->sum(2, 2);
+$calcHtml = require __DIR__.'/../components/calc.php';
 
-echo Siler\Twig\render('pages/home.twig', ['result' => $result]);
+echo Siler\Twig\render('pages/home.twig', ['calc' => $calcHtml]);
 exit;
