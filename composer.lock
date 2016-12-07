@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22b7b69aa19166f594f2ea09cd5d9bae",
-    "content-hash": "92b8a56f5cd9f4bf96aba42bb8ff9a0a",
+    "hash": "c2da66a895d57c95d66cb8adbfb289f9",
+    "content-hash": "18cca6c71cffcca03557fb2e0c348c79",
     "packages": [
         {
             "name": "leocavalcante/siler",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leocavalcante/siler.git",
-                "reference": "ea7b28f8baf611ad3f039ecc0fa30c1fd6cddcf0"
+                "reference": "e56041dc7a93445957171f5c27d08f07af3a34d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/ea7b28f8baf611ad3f039ecc0fa30c1fd6cddcf0",
-                "reference": "ea7b28f8baf611ad3f039ecc0fa30c1fd6cddcf0",
+                "url": "https://api.github.com/repos/leocavalcante/siler/zipball/e56041dc7a93445957171f5c27d08f07af3a34d5",
+                "reference": "e56041dc7a93445957171f5c27d08f07af3a34d5",
                 "shasum": ""
             },
             "require-dev": {
@@ -30,9 +30,9 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "lib/siler.php",
-                    "addons/twig.php",
-                    "addons/dotenv.php"
+                    "src/Siler.php",
+                    "src/Dotenv/Dotenv.php",
+                    "src/Twig/Twig.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -46,7 +46,7 @@
                 }
             ],
             "description": "Keep it simple, stupid",
-            "time": "2016-12-06 01:41:22"
+            "time": "2016-12-07 20:12:51"
         },
         {
             "name": "twig/twig",
@@ -1472,7 +1472,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "leocavalcante/siler": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
