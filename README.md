@@ -1,2 +1,2 @@
-# siler-example
-Keeping it simple, stupid
+# Siler Example
+Keeping it simple, *stupid*!
