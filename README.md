@@ -1,5 +1,6 @@
 # Siler Example
-Keeping it simple, *stupid*!
+Keeping it simple, *stupid*!<br>
+[github.com/leocavalcante/siler](https://github.com/leocavalcante/siler)
 
 ### Tip
 Start @ [web/index.php](web/index.php)
