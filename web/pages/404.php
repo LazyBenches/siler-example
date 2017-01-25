@@ -3,4 +3,8 @@
 http_response_code(404);
 echo Siler\Twig\render('pages/404.twig');
 
-exit;
+?>
+<pre>
+  <?php var_dump($_SERVER) ?>
+</pre>
+<?php exit ?>

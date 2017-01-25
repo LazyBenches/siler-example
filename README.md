@@ -5,13 +5,15 @@ Keeping it simple, *stupid*!<br>
 ### Tip
 Start @ [web/index.php](web/index.php)
 
-### Notice
+### Note
 How things fit naturally
 - web / pages
 - web / pages / home
 - web / assets
 - web / components
+- templates
 
+**Isn't it the web?**<br>
 Web isn't about Models, Views or Controllers. But you can still see things this way:
 
 | KISS | MVC |
@@ -21,7 +23,7 @@ Web isn't about Models, Views or Controllers. But you can still see things this 
 | components | HMVC (?) |
 | * | models |
 
-> *models usually abstracts persistent data, this example doesn't shows how to do it, but it is __KISS__ is plain old PHP, you can bring your fully-featured ORM or just use PDO. I personally enjoy RedBean its philosofy matches with Siler*
+> *models usually abstracts persistent data, this example doesn't shows how to do it, but it is __KISS__ is plain old PHP, you can bring your fully-featured ORM or just use PDO. I personally enjoy [RedBean](http://www.redbeanphp.com/) its philosofy matches with Siler*
 
 ### Your Rules
 Siler doesn't get on the way of your __business rules__. As you can see in [Calc.php](src/Service/Calc.php) and [CalcTest.php](tests/Service/CalcTest.php), your services can play around without any problems. `src` should be __your__ code, not 3th-party code.
