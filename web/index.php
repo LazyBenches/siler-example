@@ -4,12 +4,12 @@ require_once __DIR__.'/../app/bootstrap.php';
 
 use function Siler\Route\route;
 
-route('/', 'pages/home.php');
-route('/blog/{slug}', 'pages/blog/post.php');
+route('get', '/', 'pages/home.php');
+route('get', '/blog/{slug}', 'pages/blog/post.php');
 
-route('/fn', function () {
+route('get', '/fn', function () {
     echo 'Im a closure, babe!';
     exit();
 });
 
-route('.*', 'pages/404.php');
+route('get', '.*', 'pages/404.php');

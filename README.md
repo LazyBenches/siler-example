@@ -3,7 +3,9 @@ Keeping it simple, *stupid*!<br>
 [github.com/leocavalcante/siler](https://github.com/leocavalcante/siler)
 
 ### Tip
-Start @ [web/index.php](web/index.php)
+@see [web/index.php](web/index.php)
+@see [web/blog/index.php](web/blog/index.php)
+@see [web/api/index.php](web/api/index.php)
 
 ### Note
 How things fit naturally
@@ -11,17 +13,20 @@ How things fit naturally
 - web / pages / home
 - web / assets
 - web / components
+- web / blog / post
+- web / api / users
 - templates
 
 **Isn't it the web?**<br>
-Web isn't about Models, Views or Controllers. But you can still see things this way:
+IMO isn't about Models, Views and Controllers.<br>
+But you can still see things this way:
 
 | KISS | MVC |
 | ---- | --- |
-| pages | controllers |
-| templates | views |
-| components | HMVC (?) |
 | * | models |
+| templates | views |
+| pages | controllers |
+| components | HMVC (?) |
 
 > *models usually abstracts persistent data, this example doesn't shows how to do it, but it is __KISS__ is plain old PHP, you can bring your fully-featured ORM or just use PDO. I personally enjoy [RedBean](http://www.redbeanphp.com/) its philosofy matches with Siler*
 
