@@ -3,9 +3,10 @@ Keeping it simple, *stupid*!<br>
 [github.com/leocavalcante/siler](https://github.com/leocavalcante/siler)
 
 ### Tip
-@see [web/index.php](web/index.php)
-@see [web/blog/index.php](web/blog/index.php)
-@see [web/api/index.php](web/api/index.php)
+Routing entrypoints:
+* @see [web/index.php](web/index.php)
+* @see [web/blog/index.php](web/blog/index.php)
+* @see [web/api/index.php](web/api/index.php)
 
 ### Note
 How things fit naturally
