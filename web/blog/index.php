@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/../../app/bootstrap.php';
 
-use function Siler\Route\route;
+use Siler\Route;
 
-route('get', '/{slug}', 'pages/post.php');
-route('get', '.*', '../pages/404.php');
+Route\get('/{slug}', './pages/post.php');
+Route\get('.*', '../pages/404.php');

@@ -2,6 +2,9 @@
 
 require_once __DIR__.'/../../app/bootstrap.php';
 
-use function Siler\Route\route;
+use Siler\Route;
 
-route('get', '/users', 'users.php');
+Route\get('/users', './users.php');
+
+var_dump($_SERVER['PATH_INFO']);
+var_dump(Siler\Http\path());
